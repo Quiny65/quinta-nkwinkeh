@@ -1,0 +1,236 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quinta Nkwinkeh — Quality Assurance Expert</title>
+
+  <!-- SEO & Social -->
+  <meta name="description" content="Quinta Nkwinkeh — Quality Assurance Expert. ISO 9001 Certified. Author. Experienced in estate management, food, defence, logistics and UK Government housing contracts." />
+  <meta property="og:title" content="Quinta Nkwinkeh — Quality Assurance Expert" />
+  <meta property="og:description" content="ISO 9001 Certified. Author. MSc. Environmental Management. Compliance, operational excellence and sustainable practices across property, food, defence & logistics." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:image" content="https://i.ibb.co/ZRD4hn1G/IMG-20251024-161234.jpg" />
+
+  <!-- Serif font (web-hosted) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #ffffff;
+      --text: #000000;
+      --muted: #444444;
+      --accent: #000000;
+      --max-width: 960px;
+      --gutter: 24px;
+      font-size: 16px;
+    }
+    html,body{
+      height:100%;
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family: "Playfair Display", serif;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .container{
+      max-width: var(--max-width);
+      margin: 40px auto;
+      padding: 32px;
+      box-sizing: border-box;
+      border-left: 1px solid #000;
+      border-right: 1px solid #000;
+    }
+
+    header{
+      display:flex;
+      gap: 28px;
+      align-items:center;
+      margin-bottom: 28px;
+    }
+
+    .photo {
+      flex: 0 0 160px;
+      width:160px;
+      height:160px;
+      border-radius:8px;
+      overflow:hidden;
+      background:#f5f5f5;
+      border:2px solid #000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow: none;
+    }
+    .photo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .title {
+      flex:1 1 auto;
+    }
+    h1{
+      font-size: clamp(22px, 3.2vw, 36px);
+      margin:0 0 6px 0;
+      letter-spacing: -0.02em;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size: 0.98rem;
+      font-weight:400;
+    }
+
+    .badge {
+      display:inline-block;
+      margin-top:10px;
+      padding:6px 10px;
+      border:1px solid #000;
+      font-size:0.85rem;
+      background:transparent;
+    }
+
+    main{
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap: 28px;
+      align-items:start;
+    }
+
+    .bio{
+      line-height:1.6;
+      color:var(--text);
+      font-size:1rem;
+    }
+
+    .card{
+      border-top:1px solid #000;
+      padding-top:18px;
+    }
+
+    .contact {
+      background:transparent;
+      padding: 12px 8px;
+      font-size:0.95rem;
+    }
+
+    .links a{
+      display:inline-block;
+      text-decoration:none;
+      color:var(--text);
+      border-bottom:1px dashed #000;
+      padding-bottom:2px;
+      margin-bottom:8px;
+    }
+
+    .section-title{
+      font-size:0.95rem;
+      letter-spacing:0.02em;
+      margin:0 0 10px 0;
+      font-weight:600;
+    }
+
+    footer{
+      margin-top:36px;
+      padding-top:18px;
+      border-top:1px solid #000;
+      color:var(--muted);
+      font-size:0.9rem;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    /* Responsive */
+    @media (max-width:880px){
+      main{ grid-template-columns: 1fr; }
+      header{ gap:18px; align-items:flex-start; }
+      .photo{ width:120px; height:120px; flex:0 0 120px; }
+    }
+
+    /* small decorative underline */
+    .underline { display:inline-block; width:48px; height:2px; background:#000; margin-top:6px; }
+    /* simple icon style */
+    .icon {
+      display:inline-block;
+      width:18px;
+      height:18px;
+      vertical-align:middle;
+      margin-right:8px;
+      fill:currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <div class="photo" aria-hidden="true">
+        <!-- Profile image (external link you supplied) -->
+        <img alt="Portrait of Quinta Nkwinkeh" src="https://i.ibb.co/ZRD4hn1G/IMG-20251024-161234.jpg">
+      </div>
+
+      <div class="title">
+        <h1>Quinta Nkwinkeh</h1>
+        <p class="subtitle">Quality Assurance Expert · ISO 9001 Certified · Author</p>
+        <div class="badge" aria-hidden="true">MSc Environmental Management — Coventry University</div>
+        <div class="underline" aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <main>
+      <section aria-labelledby="about" class="card">
+        <h2 id="about" class="section-title">About</h2>
+        <p class="bio">
+          Quinta Nkwinkeh holds an MSc. in Environmental Management from Coventry University, UK and is a seasoned Quality Assurance expert with extensive experience spanning multiple industries, including estate management, food, defence and logistics. With several years of hands-on involvement in UK Government housing contracts, she brings a wealth of knowledge in compliance, operational excellence and property management. Her work reflects a commitment to ensuring high standards, regulatory compliance and sustainable business practices across all her professional engagements.
+        </p>
+
+        <div style="margin-top:18px;">
+          <h3 class="section-title">Core strengths</h3>
+          <ul style="margin:8px 0 0 18px; color:var(--muted); line-height:1.6;">
+            <li>Quality Management Systems (ISO 9001) — implementation & auditing</li>
+            <li>Compliance, regulatory assurance & supplier management</li>
+            <li>Operational excellence across estate management & serviced accommodation</li>
+            <li>Risk assessment, continuous improvement & sustainable practices</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="card" aria-labelledby="connect">
+        <h2 id="connect" class="section-title">Connect</h2>
+
+        <div class="contact">
+          <div style="margin-bottom:12px;">
+            <strong>LinkedIn</strong><br>
+            <a href="https://is.gd/Hz03Cs" target="_blank" rel="noopener">https://is.gd/Hz03Cs</a>
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <strong>Instagram</strong><br>
+            <a href="https://www.instagram.com/the_quality_assurance_expert?igsh=NjRodnFtMjNuYmE3&utm_source=qr" target="_blank" rel="noopener">the_quality_assurance_expert</a>
+          </div>
+
+          <div style="margin-top:8px;">
+            <strong>Quick actions</strong>
+            <div style="margin-top:8px;">
+              <a href="https://is.gd/Hz03Cs" target="_blank" rel="noopener" style="display:inline-block; margin-right:10px;">View LinkedIn</a>
+              <a href="https://www.instagram.com/the_quality_assurance_expert?igsh=NjRodnFtMjNuYmE3&utm_source=qr" target="_blank" rel="noopener">View Instagram</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div>© <strong>Quinta Nkwinkeh</strong> · ISO 9001 Certified · Author</div>
+      <div style="font-size:0.85rem; color:var(--muted)">Designed — black & white · serif</div>
+    </footer>
+  </div>
+</body>
+</html>
